@@ -1,0 +1,120 @@
+/* reset css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.login {
+  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 200px;
+}
+
+.login__form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__form h2 {
+  color: #9297a9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login__form input {
+  padding: 10px 20px;
+  width: inherit;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.login__form input:focus {
+  outline: none;
+  border: none;
+}
+
+.login__form p {
+  align-self: flex-end;
+  font-size: 12px;
+  color: #2b365a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login__form button {
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 100px;
+  background-color: #2b365a;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.login__form span {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #2b365a;
+  font-weight: 600;
+}
+
+.login__form .icons {
+  display: flex;
+  width: inherit;
+  justify-content: space-evenly;
+}
+
+.login__form .icons .icons__wrapper {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login__form .icons .icons__wrapper img {
+  width: 20px;
+}
+
+/* login benner */
+
+.login__benner {
+  /* width: 300px; */
+  padding: 20px;
+  background: #fff;
+  box-shadow: 5px 5px 10px #ccc, -5px -5px 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__benner img {
+  width: 280px;
+}
+
+.login__benner h2 {
+  color: #2b365a;
+}
+.login__benner p {
+  font-size: 13px;
+  color: #929292;
+}
+
+.login__benner button {
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 100px;
+  background-color: #fff;
+  color: #2b365a;
+  border: 2px solid #2b365a;
+  border-radius: 5px;
+}
